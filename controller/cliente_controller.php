@@ -1,4 +1,6 @@
+
 <?php
+
 include '../model/cliente_model.php'
 $dni_cliente = $_REQUEST["dni"];
 $nom_cliente = $_REQUEST["nombre"];
@@ -9,3 +11,5 @@ $correo      = $_REQUEST["correo"];
 $tipo        = $_REQUEST["tipo"];
 
 agregarCliente($dni_cliente, $nom_cliente, $app_cliente, $distrito, $telefono, $correo, $tipo);
+
+?>
