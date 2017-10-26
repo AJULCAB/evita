@@ -15,6 +15,6 @@ function agregarProducto($nom_producto, $des_producto, $stock_producto, $pre_com
         echo "El producto ya está registrado";  
     } else {
          $resultado = mysqli_query( $conexion, $insertar ) or die ( "Algo ha ido mal en la consulta a la base de datos");
-         header("Location: http://www.pgina.com");
+         header('Location: http://localhost/evita/admin/productos.php');
     }
 }
