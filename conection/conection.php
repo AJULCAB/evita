@@ -2,6 +2,7 @@
  $conexion = mysqli_connect("localhost", "root", "", "evita");
  session_start();
  $_SESSION["conexion"]=$conexion;
+ 
 // define("conection", $conection);
 
 // if (!$conexion) {

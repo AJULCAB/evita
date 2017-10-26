@@ -1,0 +1,12 @@
+
+# BEGIN evita
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /evita/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /evita/index.php [L]
+</IfModule>
+
+# END evita
