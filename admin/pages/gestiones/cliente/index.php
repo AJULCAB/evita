@@ -395,7 +395,7 @@
     <section class="content">
 
     <div class="row">
-        <form action="../../../controller/cliente_controller.php" method="POST">
+        <form action="../controller/cliente_controller.php" method="POST">
           <div class="col-md-6">
             <div class="form-group">
               <label>Dni:</label>
