@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 include '../conection/conection.php';
 =======
@@ -8,15 +7,12 @@ include_once('../conection/conection.php');
 
 function agregarCliente($dni_cliente, $nom_cliente, $app_cliente, $distrito, $direccion, $telefono, $correo, $tipo)
 {
-<<<<<<< HEAD
     $insertar= "INSERT INTO cliente VALUES('$dni_cliente', '$nom_cliente', '$app_cliente', '$distrito', '$telefono', '$correo', '$tipo')";
     $verificar_duplicado_de_dni = mysqli_query($conection, "SELECT * FROM cliente WHERE dni_cliente = '$dni_cliente'");
-=======
     $insertar = "INSERT INTO cliente(dni_cliente, nom_cliente, app_cliente, distrito,direccion, telefono, correo, tipo_cli) VALUES('$dni_cliente', '$nom_cliente', '$app_cliente', '$distrito','$direccion', '$telefono', '$correo', '$tipo')";
 
     $verificar_duplicado_de_dni = mysqli_query($_SESSION["conexion"], "SELECT * FROM cliente WHERE dni_cliente = '$dni_cliente'");
 
->>>>>>> 772b55943e41e982fe5e62bb0adc50a70c092bbd
     if (mysqli_num_rows($verificar_duplicado_de_dni) > 0) {
         echo "El cliente ya está registrado";
     } else {

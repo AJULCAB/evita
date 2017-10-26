@@ -25,7 +25,7 @@
           <h3 class="box-title">DATOS DE PRODUCTOS</h3>
         </div>
         <div class="text-right">
-          <a class="btn btn-success" href="#">Nuevo</a>
+          <a class="btn btn-success" href="productoinsert.php">Nuevo</a>
         </div>
 
       <?php			  
