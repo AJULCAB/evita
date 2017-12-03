@@ -1,3 +1,4 @@
+<?php include('../conection/conection.php'); ?>
 
 <?php include 'header.php';?>
 

@@ -437,6 +437,108 @@
           </div>
         </form>
     </div>
+<div class="row">
+  <form action="../controller/empleado_controller.php" method="POST">
+      <div class="col-md-6">
+            <div class="form-group">
+              <label>Dni:</label>
+              <input type="text" name="dni" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Nombre:</label>
+              <input type="text" name="nombre" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Apellidos</label>
+              <input type="text" name="apellido" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Distrito:</label>
+              <input type="text" name="distrito" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Dirección</label>
+              <input type="text" name="direccion" class="form-control">
+            </div>
+         <div class="col-md-6">
+            <div class="form-group">
+              <label>Correo</label>
+              <input type="text" name="correo" class="form-control">
+            </div>
+        <div class="col-md-6">
+            <div class="form-group">
+              <label>Tipo</label>
+              <input type="text" name="tipo" class="form-control">
+            </div>
+              <div class="col-md-6">
+            <div class="form-group">
+              <label>Turno</label>
+              <input type="text" name="turno" class="form-control">
+            </div>
+
+<div class="row">
+  <form action="../controller/producto_controller.php" method="POST">
+      <div class="col-md-6">
+            <div class="form-group">
+              <label>Dni:</label>
+              <input type="text" name="dni" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Nombre:</label>
+              <input type="text" name="nombre" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Apellidos</label>
+              <input type="text" name="apellido" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Distrito:</label>
+              <input type="text" name="distrito" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Dirección</label>
+              <input type="text" name="direccion" class="form-control">
+            </div>
+         <div class="col-md-6">
+            <div class="form-group">
+              <label>Correo</label>
+              <input type="text" name="correo" class="form-control">
+            </div>
+        <div class="col-md-6">
+            <div class="form-group">
+              <label>Tipo</label>
+              <input type="text" name="tipo" class="form-control">
+            </div>
+              <div class="col-md-6">
+            <div class="form-group">
+              <label>Turno</label>
+              <input type="text" name="turno" class="form-control">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
