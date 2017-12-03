@@ -1,5 +1,5 @@
 # evita
-sistema de ventas para ingeniería web
+sistema de ventas para ingeniería web UCV
 LIST OF DEVELOPERS
 
 -julca blas ahiezer
